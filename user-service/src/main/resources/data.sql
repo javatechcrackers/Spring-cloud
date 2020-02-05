@@ -1,0 +1,1 @@
+INSERT INTO user (id, username, password, email, fullname, mobile) VALUES (1, 'prashant', 'prashant', 'prashant@gmail.com', 'prashant katiyar', '999999999')

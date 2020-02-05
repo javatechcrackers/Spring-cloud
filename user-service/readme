@@ -1,0 +1,43 @@
+run the spring boot application by running  class UserServiceApplication
+
+1. get user by id - localhost:8080/user/2
+2. get all user - localhost:8080/user
+3. add new user - localhost:8080/user/
+
+{
+    "id": 2,
+    "username": "amit",
+    "password": "prashant2",
+    "email": "prashant2@gmail.com",
+    "fullname": "prashant amit",
+    "mobile": "9999999999"
+}
+
+4. update a user - localhost:8080/user/
+
+{
+    "id": 2,
+    "username": "amit",
+    "password": "prashant2",
+    "email": "prashant2@gmail.com",
+    "fullname": "prashant amit",
+    "mobile": "9999999999"
+}
+
+5. remove a user - localhost:8080/user/1
+
+
+6. login a user to get JWT token - 
+	localhost:8080/login/
+
+{
+"username": "amit",
+    "password": "prashant2"
+    }
+    
+    
+    7. add same user - it will throw userAlreadyexist
+    
+    8. validation working - required, email format
+    
+    9. saving the password in encoded format
